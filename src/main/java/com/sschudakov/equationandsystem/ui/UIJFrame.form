@@ -1,0 +1,619 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.3" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JFrameFormInfo">
+  <Properties>
+    <Property name="defaultCloseOperation" type="int" value="3"/>
+  </Properties>
+  <SyntheticProperties>
+    <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
+    <SyntheticProperty name="generateCenter" type="boolean" value="false"/>
+  </SyntheticProperties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Component id="mainJTP" alignment="0" max="32767" attributes="0"/>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Component id="mainJTP" alignment="0" max="32767" attributes="0"/>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Container class="javax.swing.JTabbedPane" name="mainJTP">
+
+      <Layout class="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout"/>
+      <SubComponents>
+        <Container class="javax.swing.JPanel" name="dichotomyJP">
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout" value="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout$JTabbedPaneConstraintsDescription">
+              <JTabbedPaneConstraints tabName="Dichotomy">
+                <Property name="tabTitle" type="java.lang.String" value="Dichotomy"/>
+              </JTabbedPaneConstraints>
+            </Constraint>
+          </Constraints>
+
+          <Layout>
+            <DimensionLayout dim="0">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="0" attributes="0">
+                      <Group type="103" groupAlignment="1" attributes="0">
+                          <Group type="102" attributes="0">
+                              <EmptySpace min="35" pref="35" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                                  <Component id="aEndpointJLabel" pref="145" max="32767" attributes="0"/>
+                                  <Component id="bEndpointJLabel" pref="145" max="32767" attributes="0"/>
+                                  <Component id="dichotomyPrecisionJL" max="32767" attributes="0"/>
+                              </Group>
+                              <EmptySpace min="30" max="32767" attributes="0"/>
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Group type="103" alignment="1" groupAlignment="0" max="-2" attributes="0">
+                                      <Component id="precisionJTF" pref="160" max="32767" attributes="0"/>
+                                      <Component id="bEndpointJTF" max="32767" attributes="0"/>
+                                  </Group>
+                                  <Component id="aEndpointJTF" alignment="1" min="-2" pref="160" max="-2" attributes="0"/>
+                              </Group>
+                          </Group>
+                          <Component id="dichotomySolveJButton" min="-2" pref="160" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="1" attributes="0">
+                              <Component id="functionValueJTF" alignment="1" min="-2" pref="160" max="-2" attributes="0"/>
+                              <Group type="102" alignment="0" attributes="0">
+                                  <Group type="103" groupAlignment="1" attributes="0">
+                                      <Component id="dichotomyENOIJL" min="-2" pref="145" max="-2" attributes="0"/>
+                                      <Group type="103" groupAlignment="1" attributes="0">
+                                          <Group type="102" alignment="0" attributes="0">
+                                              <EmptySpace min="-2" pref="34" max="-2" attributes="0"/>
+                                              <Group type="103" groupAlignment="1" attributes="0">
+                                                  <Component id="dichotomySolutionJL" alignment="1" min="-2" pref="145" max="-2" attributes="0"/>
+                                                  <Component id="dichotomyNOIJL" min="-2" pref="145" max="-2" attributes="0"/>
+                                              </Group>
+                                          </Group>
+                                          <Group type="102" attributes="0">
+                                              <EmptySpace max="-2" attributes="0"/>
+                                              <Component id="dichotomyFunctionValueJL" min="-2" pref="145" max="-2" attributes="0"/>
+                                          </Group>
+                                      </Group>
+                                  </Group>
+                                  <Group type="103" groupAlignment="0" attributes="0">
+                                      <Group type="103" alignment="0" groupAlignment="0" max="-2" attributes="0">
+                                          <Group type="102" attributes="0">
+                                              <EmptySpace min="-2" pref="31" max="-2" attributes="0"/>
+                                              <Component id="dichotomyNOIJTF" min="-2" pref="160" max="-2" attributes="0"/>
+                                          </Group>
+                                          <Group type="102" alignment="1" attributes="0">
+                                              <EmptySpace max="32767" attributes="0"/>
+                                              <Component id="solutionJTF" min="-2" pref="160" max="-2" attributes="0"/>
+                                          </Group>
+                                      </Group>
+                                      <Group type="102" alignment="1" attributes="0">
+                                          <EmptySpace min="-2" pref="31" max="-2" attributes="0"/>
+                                          <Component id="dichotomyENOIJTF" min="-2" pref="160" max="-2" attributes="0"/>
+                                      </Group>
+                                  </Group>
+                              </Group>
+                          </Group>
+                      </Group>
+                      <EmptySpace pref="318" max="32767" attributes="0"/>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+            <DimensionLayout dim="1">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace min="-2" pref="18" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="aEndpointJLabel" alignment="3" min="-2" pref="25" max="-2" attributes="0"/>
+                          <Component id="aEndpointJTF" alignment="3" min="-2" pref="25" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="bEndpointJTF" alignment="0" min="-2" pref="25" max="-2" attributes="0"/>
+                          <Component id="bEndpointJLabel" min="-2" pref="25" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace min="-2" pref="11" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="dichotomyPrecisionJL" alignment="3" min="-2" pref="25" max="-2" attributes="0"/>
+                          <Component id="precisionJTF" alignment="3" min="-2" pref="25" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace type="unrelated" min="-2" max="-2" attributes="0"/>
+                      <Component id="dichotomySolveJButton" min="-2" pref="25" max="-2" attributes="0"/>
+                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="solutionJTF" alignment="3" min="-2" pref="25" max="-2" attributes="0"/>
+                          <Component id="dichotomySolutionJL" alignment="3" min="-2" pref="25" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="dichotomyFunctionValueJL" alignment="3" min="-2" pref="25" max="-2" attributes="0"/>
+                          <Component id="functionValueJTF" alignment="3" min="-2" pref="25" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace min="-2" pref="8" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="dichotomyNOIJTF" alignment="3" min="-2" pref="25" max="-2" attributes="0"/>
+                          <Component id="dichotomyNOIJL" alignment="3" min="-2" pref="25" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="dichotomyENOIJTF" alignment="3" min="-2" pref="25" max="-2" attributes="0"/>
+                          <Component id="dichotomyENOIJL" alignment="3" min="-2" pref="25" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace pref="270" max="32767" attributes="0"/>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+          </Layout>
+          <SubComponents>
+            <Component class="javax.swing.JLabel" name="dichotomyPrecisionJL">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="precision"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JTextField" name="precisionJTF">
+            </Component>
+            <Component class="javax.swing.JLabel" name="aEndpointJLabel">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="a"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="bEndpointJLabel">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="b"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JTextField" name="aEndpointJTF">
+            </Component>
+            <Component class="javax.swing.JTextField" name="bEndpointJTF">
+            </Component>
+            <Component class="javax.swing.JLabel" name="dichotomySolutionJL">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="solution"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JTextField" name="solutionJTF">
+            </Component>
+            <Component class="javax.swing.JButton" name="dichotomySolveJButton">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="solve"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="dichotomySolveJButtonActionPerformed"/>
+              </Events>
+            </Component>
+            <Component class="javax.swing.JLabel" name="dichotomyNOIJL">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="num of iterations"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JTextField" name="dichotomyNOIJTF">
+            </Component>
+            <Component class="javax.swing.JTextField" name="dichotomyENOIJTF">
+            </Component>
+            <Component class="javax.swing.JLabel" name="dichotomyFunctionValueJL">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="function value"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JTextField" name="functionValueJTF">
+            </Component>
+            <Component class="javax.swing.JLabel" name="dichotomyENOIJL">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="expected number of iterations"/>
+              </Properties>
+              <AccessibilityProperties>
+                <Property name="AccessibleContext.accessibleName" type="java.lang.String" value=""/>
+              </AccessibilityProperties>
+            </Component>
+          </SubComponents>
+        </Container>
+        <Container class="javax.swing.JPanel" name="newtonJP">
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout" value="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout$JTabbedPaneConstraintsDescription">
+              <JTabbedPaneConstraints tabName="Newton">
+                <Property name="tabTitle" type="java.lang.String" value="Newton"/>
+              </JTabbedPaneConstraints>
+            </Constraint>
+          </Constraints>
+
+          <Layout>
+            <DimensionLayout dim="0">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" attributes="0">
+                      <EmptySpace min="-2" pref="24" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="newtonFunctionValueJL" alignment="1" max="32767" attributes="0"/>
+                          <Component id="newtonSolutionJL" alignment="1" max="32767" attributes="0"/>
+                          <Component id="newtonPrecisionJL" alignment="1" max="32767" attributes="0"/>
+                          <Component id="xZeroJL" alignment="0" max="32767" attributes="0"/>
+                          <Component id="approximateSolutionJL" alignment="0" max="32767" attributes="0"/>
+                          <Component id="derivativeMinimumJL" alignment="0" max="32767" attributes="0"/>
+                          <Component id="sodmJL" alignment="0" max="32767" attributes="0"/>
+                          <Component id="newtonNOIJL" max="32767" attributes="0"/>
+                          <Component id="newtonENOIJL" max="32767" attributes="0"/>
+                      </Group>
+                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="approximateSolutionJTF" min="-2" pref="200" max="-2" attributes="0"/>
+                          <Component id="xZeroJTF" min="-2" pref="200" max="-2" attributes="0"/>
+                          <Component id="derivativeMinimumJTF" alignment="0" min="-2" pref="200" max="-2" attributes="0"/>
+                          <Component id="sodmJTF" alignment="0" min="-2" pref="200" max="-2" attributes="0"/>
+                          <Component id="newtonPrecisionJTF" alignment="0" min="-2" pref="200" max="-2" attributes="0"/>
+                          <Component id="newtonSolveJB" alignment="0" min="-2" pref="200" max="-2" attributes="0"/>
+                          <Component id="newtonSolutionJTF" alignment="0" min="-2" pref="200" max="-2" attributes="0"/>
+                          <Component id="newtonFunctionValueJTF" alignment="0" min="-2" pref="200" max="-2" attributes="0"/>
+                          <Component id="newtonNOIJTF" alignment="0" min="-2" pref="200" max="-2" attributes="0"/>
+                          <Component id="newtonENOIJTF" min="-2" pref="200" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace min="-2" pref="251" max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+            <DimensionLayout dim="1">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace min="-2" pref="26" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="xZeroJTF" min="-2" pref="25" max="-2" attributes="0"/>
+                          <Component id="xZeroJL" min="-2" pref="25" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="approximateSolutionJL" min="-2" pref="25" max="-2" attributes="0"/>
+                          <Component id="approximateSolutionJTF" alignment="1" min="-2" pref="25" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="derivativeMinimumJL" alignment="3" pref="25" max="32767" attributes="0"/>
+                          <Component id="derivativeMinimumJTF" alignment="3" pref="25" max="32767" attributes="0"/>
+                      </Group>
+                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="sodmJL" alignment="3" min="-2" pref="25" max="-2" attributes="0"/>
+                          <Component id="sodmJTF" alignment="3" min="-2" pref="25" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="newtonPrecisionJL" alignment="3" min="-2" pref="25" max="-2" attributes="0"/>
+                          <Component id="newtonPrecisionJTF" alignment="3" min="-2" pref="25" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                      <Component id="newtonSolveJB" min="-2" pref="25" max="-2" attributes="0"/>
+                      <EmptySpace type="unrelated" pref="103" max="32767" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="newtonSolutionJL" alignment="3" min="-2" pref="25" max="-2" attributes="0"/>
+                          <Component id="newtonSolutionJTF" alignment="3" min="-2" pref="25" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                          <Component id="newtonFunctionValueJTF" max="32767" attributes="0"/>
+                          <Component id="newtonFunctionValueJL" pref="25" max="32767" attributes="0"/>
+                      </Group>
+                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="newtonNOIJL" alignment="3" min="-2" pref="25" max="-2" attributes="0"/>
+                          <Component id="newtonNOIJTF" alignment="3" min="-2" pref="25" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="newtonENOIJL" alignment="3" min="-2" pref="25" max="-2" attributes="0"/>
+                          <Component id="newtonENOIJTF" alignment="3" min="-2" pref="25" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace min="-2" pref="95" max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+          </Layout>
+          <SubComponents>
+            <Component class="javax.swing.JLabel" name="xZeroJL">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="x zero"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="approximateSolutionJL">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="approximate solution"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="derivativeMinimumJL">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="deirvative minimum"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="sodmJL">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="second order derivative maximum"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="newtonPrecisionJL">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="precision"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JTextField" name="xZeroJTF">
+            </Component>
+            <Component class="javax.swing.JTextField" name="approximateSolutionJTF">
+            </Component>
+            <Component class="javax.swing.JTextField" name="derivativeMinimumJTF">
+            </Component>
+            <Component class="javax.swing.JTextField" name="sodmJTF">
+            </Component>
+            <Component class="javax.swing.JTextField" name="newtonPrecisionJTF">
+            </Component>
+            <Component class="javax.swing.JButton" name="newtonSolveJB">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="solve"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="newtonSolveJBActionPerformed"/>
+              </Events>
+            </Component>
+            <Component class="javax.swing.JLabel" name="newtonSolutionJL">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="solution"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="newtonFunctionValueJL">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="function value"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="newtonNOIJL">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="number of iterations"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="newtonENOIJL">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="expected number of iterations"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JTextField" name="newtonSolutionJTF">
+            </Component>
+            <Component class="javax.swing.JTextField" name="newtonFunctionValueJTF">
+            </Component>
+            <Component class="javax.swing.JTextField" name="newtonNOIJTF">
+            </Component>
+            <Component class="javax.swing.JTextField" name="newtonENOIJTF">
+            </Component>
+          </SubComponents>
+        </Container>
+        <Container class="javax.swing.JPanel" name="systemJL">
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout" value="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout$JTabbedPaneConstraintsDescription">
+              <JTabbedPaneConstraints tabName="System solution">
+                <Property name="tabTitle" type="java.lang.String" value="System solution"/>
+              </JTabbedPaneConstraints>
+            </Constraint>
+          </Constraints>
+
+          <Layout>
+            <DimensionLayout dim="0">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace min="-2" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="102" attributes="0">
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Component id="inverseMatrixJL" max="32767" attributes="0"/>
+                                  <Component id="matrixProductJL" max="32767" attributes="0"/>
+                              </Group>
+                              <EmptySpace min="-2" pref="34" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Group type="103" groupAlignment="1" max="-2" attributes="0">
+                                      <Component id="determinantJTF" alignment="0" max="32767" attributes="0"/>
+                                      <Component id="jScrollPane1" alignment="0" pref="542" max="32767" attributes="0"/>
+                                      <Component id="jScrollPane2" alignment="0" max="32767" attributes="0"/>
+                                  </Group>
+                                  <Component id="iterativeSolutionJTF" min="-2" pref="542" max="-2" attributes="0"/>
+                              </Group>
+                          </Group>
+                          <Group type="102" attributes="0">
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Group type="103" alignment="0" groupAlignment="1" max="-2" attributes="0">
+                                      <Component id="systemInitialSolutionJL" pref="120" max="32767" attributes="0"/>
+                                      <Component id="systemPrecisionJL" pref="120" max="32767" attributes="0"/>
+                                  </Group>
+                                  <Group type="103" alignment="0" groupAlignment="0" max="-2" attributes="0">
+                                      <Component id="determinantJL" alignment="0" max="32767" attributes="0"/>
+                                      <Component id="conditionNumberJL" alignment="0" max="32767" attributes="0"/>
+                                      <Component id="iterateSolutionJL" alignment="0" max="32767" attributes="0"/>
+                                      <Component id="straightForwardSolutionJL" alignment="0" min="-2" pref="120" max="-2" attributes="0"/>
+                                  </Group>
+                              </Group>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Component id="systemPrecisionJTF" max="32767" attributes="0"/>
+                                  <Component id="systemInitialSolutionJTF" max="32767" attributes="0"/>
+                                  <Group type="102" alignment="1" attributes="0">
+                                      <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+                                      <Component id="conditionNumberJTF" min="-2" pref="542" max="-2" attributes="0"/>
+                                  </Group>
+                                  <Component id="straightForwardSolutionJTF" max="32767" attributes="0"/>
+                                  <Component id="solveSystemJB" alignment="1" max="32767" attributes="0"/>
+                              </Group>
+                          </Group>
+                      </Group>
+                      <EmptySpace min="-2" pref="13" max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+            <DimensionLayout dim="1">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="1" attributes="0">
+                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="systemPrecisionJL" alignment="3" min="-2" pref="25" max="-2" attributes="0"/>
+                          <Component id="systemPrecisionJTF" alignment="3" min="-2" pref="25" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="systemInitialSolutionJL" alignment="3" min="-2" pref="25" max="-2" attributes="0"/>
+                          <Component id="systemInitialSolutionJTF" alignment="3" min="-2" pref="25" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace min="-2" pref="19" max="-2" attributes="0"/>
+                      <Component id="solveSystemJB" min="-2" pref="25" max="-2" attributes="0"/>
+                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="straightForwardSolutionJL" alignment="3" min="-2" pref="25" max="-2" attributes="0"/>
+                          <Component id="straightForwardSolutionJTF" alignment="3" min="-2" pref="25" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="iterateSolutionJL" alignment="3" min="-2" pref="25" max="-2" attributes="0"/>
+                          <Component id="iterativeSolutionJTF" alignment="3" min="-2" pref="25" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="conditionNumberJL" min="-2" pref="25" max="-2" attributes="0"/>
+                          <Component id="conditionNumberJTF" alignment="0" min="-2" pref="25" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="determinantJL" alignment="3" min="-2" pref="25" max="-2" attributes="0"/>
+                          <Component id="determinantJTF" alignment="3" min="-2" pref="25" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace type="unrelated" min="-2" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="inverseMatrixJL" min="-2" pref="25" max="-2" attributes="0"/>
+                          <Component id="jScrollPane1" min="-2" pref="114" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="jScrollPane2" min="-2" pref="114" max="-2" attributes="0"/>
+                          <Component id="matrixProductJL" min="-2" pref="25" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace pref="31" max="32767" attributes="0"/>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+          </Layout>
+          <SubComponents>
+            <Component class="javax.swing.JLabel" name="systemPrecisionJL">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="precision"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="straightForwardSolutionJL">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="straight-forwward x"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="iterateSolutionJL">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="iterative x"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="conditionNumberJL">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="condition number"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="determinantJL">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="determinant of A"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="inverseMatrixJL">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="inverse matrix"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="matrixProductJL">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="matrix product"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JTextField" name="systemPrecisionJTF">
+            </Component>
+            <Component class="javax.swing.JTextField" name="straightForwardSolutionJTF">
+              <AccessibilityProperties>
+                <Property name="AccessibleContext.accessibleName" type="java.lang.String" value=""/>
+              </AccessibilityProperties>
+            </Component>
+            <Component class="javax.swing.JTextField" name="iterativeSolutionJTF">
+              <AccessibilityProperties>
+                <Property name="AccessibleContext.accessibleName" type="java.lang.String" value=""/>
+              </AccessibilityProperties>
+            </Component>
+            <Component class="javax.swing.JTextField" name="conditionNumberJTF">
+              <AccessibilityProperties>
+                <Property name="AccessibleContext.accessibleName" type="java.lang.String" value=""/>
+              </AccessibilityProperties>
+            </Component>
+            <Component class="javax.swing.JTextField" name="determinantJTF">
+              <AccessibilityProperties>
+                <Property name="AccessibleContext.accessibleName" type="java.lang.String" value=""/>
+              </AccessibilityProperties>
+            </Component>
+            <Component class="javax.swing.JButton" name="solveSystemJB">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="solve"/>
+              </Properties>
+              <AccessibilityProperties>
+                <Property name="AccessibleContext.accessibleName" type="java.lang.String" value=""/>
+              </AccessibilityProperties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="solveSystemJBActionPerformed"/>
+              </Events>
+            </Component>
+            <Container class="javax.swing.JScrollPane" name="jScrollPane1">
+              <AuxValues>
+                <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
+              </AuxValues>
+
+              <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+              <SubComponents>
+                <Component class="javax.swing.JTextArea" name="inverseMatrixJTA">
+                  <Properties>
+                    <Property name="columns" type="int" value="20"/>
+                    <Property name="rows" type="int" value="5"/>
+                  </Properties>
+                </Component>
+              </SubComponents>
+            </Container>
+            <Container class="javax.swing.JScrollPane" name="jScrollPane2">
+              <AuxValues>
+                <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
+              </AuxValues>
+
+              <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+              <SubComponents>
+                <Component class="javax.swing.JTextArea" name="matrixProductJTA">
+                  <Properties>
+                    <Property name="columns" type="int" value="20"/>
+                    <Property name="rows" type="int" value="5"/>
+                  </Properties>
+                  <AccessibilityProperties>
+                    <Property name="AccessibleContext.accessibleName" type="java.lang.String" value=""/>
+                  </AccessibilityProperties>
+                </Component>
+              </SubComponents>
+            </Container>
+            <Component class="javax.swing.JLabel" name="systemInitialSolutionJL">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="initial solution"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JTextField" name="systemInitialSolutionJTF">
+              <AccessibilityProperties>
+                <Property name="AccessibleContext.accessibleName" type="java.lang.String" value=""/>
+              </AccessibilityProperties>
+            </Component>
+          </SubComponents>
+        </Container>
+      </SubComponents>
+    </Container>
+  </SubComponents>
+</Form>
